@@ -1,12 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 html {
   display: block;
   font-family: Georgia;
+  color: #2f2d13;
 }
 /* Header */
 
@@ -19,7 +20,7 @@ header {
 
 h1 {
   padding: .2em .5em .3em;
-  font-family: sigmar one;
+  font-family: Sigmar One;
   font-size: 3rem;
   color: #b20953;
 }
@@ -50,12 +51,6 @@ h1 {
   border-color: #cc1465;
   background-color: #cc1465;
 }
-
-/* Content */
-
-/* section {
-  padding: .2em .5em .3em;
-} */
 
 h2 {
   font-family: sigmar one;
