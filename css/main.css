@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  display: block;
+  font-family: Georgia;
+}
+/* Header */
+
+header {
+  background-color: #ffe500;
+  text-align: center;
+  display: block;
+  padding: .3em;
+}
+
+h1 {
+  padding: .2em .5em .3em;
+  font-family: sigmar one;
+  font-size: 3rem;
+  color: #cc1465;
+}
+
+/* Header Navigation */
+
+.nav {
+  margin: .2em .5em .3em;
+  display: inline-block;
+}
+
+.btn {
+  padding: .2em .5em .3em;
+  border: 2px #b2a212 solid;
+  border-radius: 4px;
+  background-color: #b2a212;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+.current {
+  border-color: #cc1465;
+  background-color: #cc1465;
+}
