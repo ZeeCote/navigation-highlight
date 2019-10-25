@@ -21,7 +21,7 @@ h1 {
   padding: .2em .5em .3em;
   font-family: sigmar one;
   font-size: 3rem;
-  color: #cc1465;
+  color: #b20953;
 }
 
 /* Header Navigation */
@@ -42,6 +42,42 @@ h1 {
 }
 
 .current {
+  border-color: #b20953;
+  background-color: #b20953;
+}
+
+.btn:hover {
   border-color: #cc1465;
   background-color: #cc1465;
+}
+
+/* Content */
+
+/* section {
+  padding: .2em .5em .3em;
+} */
+
+h2 {
+  font-family: sigmar one;
+  font-size: 1.875rem;
+  color: #b20953;
+  padding: .75em;
+}
+
+img {
+  max-width: 100%;
+  padding: 0 .75em;
+}
+
+p {
+  padding: .75em;;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  font-size: .75rem;
+  background-color: #ffe500;
+  padding: .75rem;
 }
